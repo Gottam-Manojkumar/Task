@@ -51,6 +51,15 @@ a {
     background-color: #C1D3FF;
 }
 
+.productIteamImg {
+    justify-content: space-between;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
 
 .Imgtag {
     width: 100%;

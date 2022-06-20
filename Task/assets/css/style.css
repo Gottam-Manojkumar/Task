@@ -1,0 +1,440 @@
+
+main {
+    background-color: #F5F5F5;
+}
+
+.fonttxt9 {
+    font-size: 9px;
+}
+
+.fonttxt10 {
+    font-size: 10px;
+}
+
+.fonttxt14 {
+    font-size: 14px;
+}
+
+.Txtdecoration {
+    text-decoration: underline;
+}
+
+/* navbar */
+
+a {
+    color: black !important;
+}
+
+.navbarSupportedContent {
+    color: #0B315E;
+}
+
+.navbarLogo {
+    position: absolute;
+    left: 12px;
+    top: 27px;
+}
+
+.formControlSearchIcon {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.navItems {
+    margin-left: 60px;
+}
+
+/* product */
+
+.productContainer {
+    background-color: #C1D3FF;
+}
+
+
+.Imgtag {
+    width: 100%;
+}
+
+.bgWhite {
+    background-color: white;
+}
+
+.txtBlack {
+    color: black;
+}
+
+.ChoosecolorSpacing {
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 5px;
+}
+
+.sponsorInnerBox {
+    background-color: #F3F3F4;
+}
+
+
+/* best selling */
+
+.bestSellingTextBox {
+    padding-top: 200px;
+}
+
+/* items */
+
+.itemContainer {
+    color:white;
+}
+
+/*  */
+
+.positionRelative {
+    position: relative;
+}
+
+.bunndlesItemHeader {
+    position: absolute;
+    padding-top: 15px;
+    width: 100%;
+    text-align: center;
+}
+
+.bunndlesItemAmountBox {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+
+.floatRight {
+    float: right;
+}
+
+/* ug festival deals */
+
+.ugFestivalContainerTextBox {
+    margin-top: 110px;
+    margin-left: 110px;
+}
+
+/* brands */
+
+.brandsImgBox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.brandsImg {
+    margin-top: 25px;
+    margin-left: 10px;
+}
+
+/* prefer to compare by network */
+
+.preferImgBox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.preferImg {
+    margin-top: 25px;
+    margin-left: 10px;
+}
+
+/* upgrade-adviceBox */
+
+.upgradContainer {
+    background-color: #EBEBEB;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.upgrade-adviceBox-left1 {
+    height: 50%;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-bottom: 20px;
+}
+
+.upgrade-adviceBox-left2 {
+    height: 50%;
+    color: white;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-bottom: 20px;
+}
+
+.upgrade-adviceBox-left3 {
+    height: 50%;
+    color: white;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-bottom: 20px;
+}
+
+.upgrade-adviceBox-left4 {
+    height: 50%;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-bottom: 20px;
+}
+
+/* upgear to gearup & repeat */
+
+.upgearContainerTextBox {
+    padding-top: 130px;
+    padding-left: 100px;
+}
+
+/* smart gears */
+
+.smartgearsContainerTextBox {
+    margin-top: 110px;
+    margin-left: 110px;  
+}
+
+/* footer */
+
+.footerContainer {
+    background-color: #001827;
+    color: white;
+}
+
+@media (max-width: 1399px) and (min-width: 1200px) {
+
+    /* ug festival deals */
+    .ugFestivalContainerTextBox {
+        margin-top: 60px;
+        margin-left: 110px;
+    }
+
+    /* smart gears */
+
+    .smartgearsContainerTextBox {
+        margin-top: 110px;
+        margin-left: 110px;  
+    }
+}
+
+@media (max-width: 1199px) and (min-width: 992px) {
+
+    /* Product item */
+
+    .productMainImg {
+        width: 220px;
+    }
+
+    .productIteamImg {
+        justify-content: space-between;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+
+    .addBtn {
+        font-size: 12px;
+    }
+
+    .chooseBox {
+        padding-top: 15px !important;
+    }
+
+    /* ug festival deals */
+    .ugFestivalContainerTextBox {
+        margin-top: 30px;
+        margin-left: 110px;
+    }
+
+    /* upgearContainerTextBox */
+
+    .upgearContainerTextBox {
+        padding-top: 80px;
+        padding-left: 50px;
+    }
+
+    /*  */
+
+    .phoneBundlesImg {
+        width: 200px !important;
+    }
+
+    /*  */
+
+    .signBtn {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+
+    /* navItems */
+
+    .navItems {
+        margin-left: 0px;
+    }
+
+    /* product item */
+
+    .productMainImg {
+        width: 222px;
+    }
+
+    /* ug festival deals */
+    .ugFestivalContainerTextBox {
+        margin-top: 0px;
+        margin-left: 60px;
+    }
+
+    /* upgearContainerTextBox */
+
+    .upgearContainerTextBox {
+        padding-top: 60px;
+        padding-left: 10px;
+    }
+
+    /* smart gears */
+
+    .smartgearsContainerTextBox {
+        margin-top: 110px;
+        margin-left: 0px;  
+    }
+
+    .smartGearsImg {
+        width: 250px;
+    }
+
+}
+
+@media (max-width: 991px) and (min-width: 350px) {
+
+    /* navItems */
+
+    .navItems {
+        margin-left: 0px;
+    }
+
+    /* product item */
+
+    .productMainImg {
+        width: 150px;
+    }
+
+    .productIteamImg {
+        margin-top: 25px;
+        margin-right: 0px;
+        margin-left: 0px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .productTextBOX-left {
+        font-size: 12px;
+    }
+
+    .addBtn {
+        font-size: 10px;
+    }
+
+    .SponsoredBox {
+        width: 100%;
+    }
+
+    .productBtn {
+        display: block !important;
+    }
+
+    /* ug festival deals */
+    .ugFestivalContainerTextBox {
+        margin-top: 0px;
+        margin-left: 10px;
+        margin-bottom: 20px;
+    }
+
+    /* upgearContainerTextBox */
+
+    .upgearContainerTextBox {
+        padding-top: 50px;
+        padding-left: 10px;
+    }
+
+    /* smart gears */
+
+    .smartgearsContainerTextBox {
+        margin-top: 50px;
+        margin-left: 0px;  
+    }
+}
+
+@media (max-width: 767px) and (min-width: 350px) {
+
+    /* product item */
+
+    .productIteamImg {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .chooseTxtBox {
+        padding-top: 10px;
+    }
+
+    .ChoosecolorSpacing {
+        margin-top: 2px;
+        margin-right: 10px;
+        margin-left: 5px;
+    }
+
+    .ChoosecolorTxt {
+        font-size: 10px;
+    }
+
+    /* best selling */
+
+    .bestSellingImg {
+        width: 250px;
+    }
+
+    .bestSellingTextBox {
+        padding-top: 20px !important;
+    }
+
+    /*  */
+
+    .Imgtag {
+        width: 100%;
+    }
+
+    /*  */
+
+    .spacing {
+        padding-top: 10px;
+    }
+
+    /*  */
+
+    .phoneBundlesImg {
+        width: 150px !important;
+    }
+
+    /*  */
+
+    .smartGearsImg {
+        width: 150px;
+    }
+
+    /*  */
+
+    /*  */
+
+    .signBtn {
+        font-size: 10px;
+    }
+
+}
